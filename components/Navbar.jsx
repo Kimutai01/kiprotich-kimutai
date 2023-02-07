@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
@@ -13,7 +13,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="fixed w-full h-20 text-white">
+    <div className="fixed w-full h-20 text-white z-50 ">
       <div className="flex justify-between items-center w-full h-full 2xl:px-16">
         <div className="bg-[#000] w-[40%] h-[100%] px-2 items-center">
           <h1 className="py-6 text-2xl text-bold">Kimutai</h1>
@@ -61,8 +61,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed w-[100%] sm:w-[60%] top-20 md-[45%] h-[52%] bg-[#111]  ease-in duration-500"
-              : "fixed left-[-100%] h-[52%] top-0 p-10 ease-in duration-500"
+              ? "fixed w-[100%] sm:w-[60%] top-20 md-[45%] h-[55%] bg-[#111]  ease-in duration-500"
+              : "fixed left-[-100%] h-[55%] top-0 p-10 ease-in duration-500"
           }
         >
           <div className="text-[hsla(2, 0%, 100%, 0.7)]">
