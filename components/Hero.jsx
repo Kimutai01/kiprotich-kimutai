@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 const Hero = () => {
   return (
     <div className="flex md:justify-between flex-col">
-      <div className="bg-[#000] md:w-[40%] md:h-[1064px] w-full">
+      <div className="bg-[#000] md:w-[40%] md:h-[880px] w-full">
         <img
           src="https://images.unsplash.com/photo-1580671905832-91b2ff0a557e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlcnNvbiUyMHdpdGglMjBibGFjayUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
           width={700}
@@ -13,7 +13,7 @@ const Hero = () => {
           className="md:absolute top-28 md:left-0 z-30 w-100"
         />
       </div>
-      <div className="md:bg-[#181822] bg-[#181822] md:w-[60%] md:h-[1000px] md:absolute md:top-16 md:right-0 text-[#fff]">
+      <div className="md:bg-[#181822] bg-[#181822] md:w-[60%] md:h-[880px] md:absolute md:top-16 md:right-0 text-[#fff]">
         <div className="md:absolute md:top-[20%] md:left-[4%] md:z-40 p-10">
           <h1 className="md:text-7xl font-bold">
             I'm Kiprotich Kimutai.
