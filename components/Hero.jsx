@@ -13,7 +13,7 @@ const Hero = () => {
           className="md:absolute top-28 md:left-0 z-30 w-100"
         />
       </div>
-      <div className="md:bg-[#111] bg-[#222] md:w-[60%] md:h-[1000px] md:absolute md:top-16 md:right-0 text-[#fff]">
+      <div className="md:bg-[#181822] bg-[#181822] md:w-[60%] md:h-[1000px] md:absolute md:top-16 md:right-0 text-[#fff]">
         <div className="md:absolute md:top-[20%] md:left-[4%] md:z-40 p-10">
           <h1 className="md:text-7xl font-bold">
             I'm Kiprotich Kimutai.
@@ -28,9 +28,7 @@ const Hero = () => {
                 loop: true,
               }}
             />
-            <span style={{ color: "hsla(0, 0%, 100%, 0.5" }}>
-              Based in Kenya.
-            </span>
+            <span style={{ color: "#8c8c91" }}>Based in Kenya.</span>
           </h1>
           <p
             className=" text-1xl mt-2"

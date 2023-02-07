@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="bg-[#000] w-[40%] h-[100%] px-2 items-center">
           <h1 className="py-6 text-2xl text-bold">Kimutai</h1>
         </div>
-        <div className="bg-[#000] md:bg-[#111] w-[60%] h-[100%] py-8 px-6 flex justify-end text-[hsla(0, 0%, 100%, 0.7)]">
+        <div className="bg-[#000] md:bg-[#181822] w-[60%] h-[100%] py-8 px-6 flex justify-end text-[#adadb0]">
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
