@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="bg-[#000] w-[40%] h-[100%] px-2 items-center">
           <h1 className="py-6 text-2xl text-bold">Kimutai</h1>
         </div>
-        <div className="bg-[#000] md:bg-[#333] w-[60%] h-[100%] py-8 px-6 flex justify-end text-[hsla(0, 0%, 100%, 0.7)]">
+        <div className="bg-[#000] md:bg-[#111] w-[60%] h-[100%] py-8 px-6 flex justify-end text-[hsla(0, 0%, 100%, 0.7)]">
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
@@ -61,8 +61,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed w-[100%] sm:w-[60%] top-20 md-[45%] h-[43%] bg-[#222]  ease-in duration-500"
-              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+              ? "fixed w-[100%] sm:w-[60%] top-20 md-[45%] h-[52%] bg-[#111]  ease-in duration-500"
+              : "fixed left-[-100%] h-[52%] top-0 p-10 ease-in duration-500"
           }
         >
           <div className="text-[hsla(2, 0%, 100%, 0.7)]">
