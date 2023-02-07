@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
       <div className="md:bg-[#181822] bg-[#181822] md:w-[60%] md:h-[830px] md:absolute md:top-16 md:right-0 text-[#fff]">
         <div className="md:absolute md:top-[20%] md:left-[3%] md:z-40 p-10">
-          <h1 className="md:text-7xl font-bold">
+          <h1 className="md:text-7xl text-4xl font-bold">
             I'm Kiprotich Kimutai.
             <Typewriter
               options={{
