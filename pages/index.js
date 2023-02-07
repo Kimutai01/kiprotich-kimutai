@@ -4,6 +4,7 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Experience from "@/components/Experience";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
+      <Experience />
     </>
   );
 }
