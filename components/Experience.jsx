@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="bg-[#000] h-[100%] pt-20 p-10">
+    <div className="bg-[#000] h-[100%] pt-40 p-10">
       <h1
         className="text-[#86919f] uppercase"
         style={{
