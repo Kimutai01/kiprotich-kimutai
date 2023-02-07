@@ -4,12 +4,12 @@ import pic from "../public/laptop-wave.png";
 
 const About = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#fdf3e6] p-12">
-      <div className="p-4">
-        <h1 className="max-w-[780px] w-[100%] leading-10 text-4xl font-bold p-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#fdf3e6] md:p-12">
+      <div className="p-6 ml-6">
+        <h1 className="max-w-[780px] w-[100%] leading-10 text-4xl font-bold md:p-6">
           About
         </h1>
-        <p className="text-[#5b6876] text-2xl leading-10 p-6">
+        <p className="text-[#5b6876] text-1xl md:text-2xl leading-10 md:p-6 mt-6">
           I am a certified full stack developer with a passion for building
           innovative and impactful applications. My expertise lies in utilizing
           HTML, CSS, JavaScript, Jest, React, Nextjs, Postgresql, Ruby, Rspec,
@@ -22,7 +22,7 @@ const About = () => {
           and contributing to the development community.
         </p>
 
-        <button className="bg-[#f9a826] text-[#fff] text-2xl font-bold py-4 px-4 rounded-full mt-4 ml-6">
+        <button className="bg-[#f9a826] text-[#fff] text-2xl font-bold py-4 px-4 rounded-full mt-4 md:ml-6">
           Download CV
         </button>
       </div>
