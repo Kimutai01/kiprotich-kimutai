@@ -186,7 +186,7 @@ const Skillset = () => {
 
         <div
           className="p-6  hover:scale-105 ease-in duration-300"
-          style={{ border: "1px solid #4c24dd", borderRadius: "10px" }}
+          style={{ border: "1px solid #4c24dd" }}
         >
           <div className="grid grid-cols-2 gap-4  justify-center items-center">
             <div className="m-auto">
