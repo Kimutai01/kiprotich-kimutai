@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Experience from "@/components/Experience";
 import About from "@/components/About";
+import Skillset from "@/components/Skillset";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function Home() {
       <Hero />
       <Experience />
       <About />
+      <Skillset />
     </>
   );
 }
