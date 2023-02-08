@@ -1,9 +1,6 @@
 import React from "react";
 import { BiPen } from "react-icons/bi";
-import { CgIfDesign } from "react-icons/cg";
-import { GrArticle } from "react-icons/gr";
 import { CiDatabase } from "react-icons/ci";
-import { BsPen } from "react-icons/bs";
 import { MdOutlineDesignServices } from "react-icons/md";
 import { IoMdCodeWorking } from "react-icons/io";
 import Image from "next/image";
