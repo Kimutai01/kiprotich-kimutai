@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import pic from "../public/laptop-wave.png";
 
@@ -21,10 +21,11 @@ const About = () => {
           amazing products, and I am committed to constantly improving my skills
           and contributing to the development community.
         </p>
-
-        <button className="bg-[#f9a826] text-[#fff] text-2xl font-bold py-4 px-4 rounded-full mt-4 md:ml-6">
-          Download CV
-        </button>
+        <a href="/kimutai.pdf" download>
+          <button className="bg-[#f9a826] text-[#fff] text-2xl font-bold py-4 px-4 rounded-full mt-4 md:ml-6 download-cv">
+            Download CV
+          </button>
+        </a>
       </div>
       <div className="flex items-center">
         <Image src={pic} alt="laptop" />
