@@ -10,7 +10,7 @@ import { IoMdCodeWorking } from "react-icons/io";
 const Skillset = () => {
   return (
     <div className="bg-[#000]">
-      <div className="flex p-24 justify-between flex-col md:flex-row">
+      <div className="flex p-6 md:p-24 justify-between flex-col md:flex-row">
         <div className="mr-8">
           <h1 className="text-[#fff] font-bold text-5xl ">Skillset</h1>
           <p
