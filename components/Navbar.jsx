@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { BiMenuAltRight } from "react-icons/bi";
@@ -17,26 +16,32 @@ const Navbar = () => {
     <div className="fixed w-full h-20 text-white z-40 ">
       <div className="flex justify-between items-center w-full h-full 2xl:px-16">
         <div className="bg-[#000] w-[40%] h-[100%] px-2 items-center">
-          <h1 className="py-6 text-2xl text-bold">Kimutai</h1>
+          <h1 className="py-6 text-3xl px-10 font-extrabold">Kimutai</h1>
         </div>
-        <div className="bg-[#000] md:bg-[#181822] w-[60%] h-[100%] py-8 px-6 flex justify-end text-[#adadb0]">
+        <div className="bg-[#000] md:bg-[#181822] w-[60%] h-[100%]  px-6 flex justify-end text-[#adadb0]">
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase py-6 hover:text-[#75fbfd]">
+                Home
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase py-6 hover:text-[#75fbfd]">
+                About
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase py-6 hover:text-[#75fbfd]">
+                Skills
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase py-6 hover:text-[#75fbfd]">
                 Projects
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase bg-[#4c24dc] text-white py-6 px-10 hover:bg-[#202088]">
                 Contact
               </li>
             </Link>
