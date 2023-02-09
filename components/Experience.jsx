@@ -17,7 +17,7 @@ const Experience = () => {
         Work Experience
       </h1>
       <h1
-        className="text-[#fff] text-4xl font-bold"
+        className="text-[#fff] text-4xl font-bold md:max-w-[50%]"
         style={{
           fontSize: "48px",
           lineHeight: "150%",
@@ -62,6 +62,7 @@ const Experience = () => {
             , Software Developer
           </h2>
           <p
+            className="pr-4"
             style={{
               marginBottom: "0px",
               color: "#fff",
@@ -70,12 +71,14 @@ const Experience = () => {
               textDecoration: "none",
             }}
           >
-            I'm currently working as a software design intern{" "}
+            I'm currently working as a software design intern on a research
+            project
           </p>
         </div>
 
         <div>
           <p
+            className="pr-4"
             style={{
               display: "block",
               marginBottom: "8px",
@@ -104,11 +107,12 @@ const Experience = () => {
                 fontWeight: "700",
               }}
             >
-              Open Institute
+              Upwork
             </span>
             , Software Developer
           </h2>
           <p
+            className="pr-4"
             style={{
               marginBottom: "0px",
               color: "#fff",
@@ -117,7 +121,7 @@ const Experience = () => {
               textDecoration: "none",
             }}
           >
-            I'm currently working as a software design intern{" "}
+            I have done a several projects on Upwork as a freelancer
           </p>
         </div>
 
@@ -151,7 +155,7 @@ const Experience = () => {
                 fontWeight: "700",
               }}
             >
-              Open Institute
+              Freelancer
             </span>
             , Software Developer
           </h2>
@@ -164,7 +168,7 @@ const Experience = () => {
               textDecoration: "none",
             }}
           >
-            I'm currently working as a software design intern{" "}
+            I work on a variety of projects as a freelancer
           </p>
         </div>
       </div>
