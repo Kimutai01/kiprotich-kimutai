@@ -5,32 +5,27 @@ import Link from "next/link";
 
 function recipe() {
   return (
-    <div className="w-full">
+    <div className="w-full bg-[#181822] text-white">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className=" absolute top-0 left-0 w-full  h-[30vh] lg:h-[40vh] bg-black/70 z-10" />
         <Image
-          src="/recipe.png"
+          src="https://uploads-ssl.webflow.com/5eb98b2079b4fc247b5a89f3/5eb99a5c86971f21359e93b7_Project%201-p-1600.jpeg"
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
         />
-        <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
-          <h2 className="py-2">Recipe app</h2>
-          <p>React </p>
-        </div>
       </div>
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5  gap-8 pt-5">
         <div className="col-span-4">
-          <p className="uppercase text-xltracking-widest text-[#5651e5] ">
-            Project
+          <p className=" text-xltracking-widest text-4xl font-bold">
+            Recipe app
           </p>
-          <h2 className="py-2 text-gray-600">Overview</h2>
-          <p>
+          <p className="mt-6">
             This is a recipe app that allows users to quickly access the latest
             crypto market data. It is built with React.
           </p>
-          <button className="px-8 py-2  mt-4 mr-8">
+          <button className=" py-2  mt-4 mr-8">
             <a
               href="https://candid-babka-c8d335.netlify.app/"
               target="_blank"
