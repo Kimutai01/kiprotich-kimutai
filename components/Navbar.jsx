@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="fixed w-full h-20 text-white z-40 ">
       <div className="flex justify-between items-center w-full h-full 2xl:px-16">
         <div className="bg-[#000] w-[40%] h-[100%] px-2 items-center">
-          <h1 className="py-6 text-3xl px-10 font-extrabold">Kimutai</h1>
+          <h1 className="py-6 text-2xl px-10 font-extrabold">Kimutai</h1>
         </div>
         <div className="bg-[#000] md:bg-[#181822] w-[60%] h-[100%]  px-6 flex justify-end text-[#adadb0]">
           <ul className="hidden md:flex">
@@ -59,7 +59,7 @@ const Navbar = () => {
                 className="z-10 text-white"
               />
             ) : (
-              <BiMenuAltRight size={25} onClick={handleNav} />
+              <BiMenuAltRight size={25} onClick={handleNav} className="mt-6" />
             )}
           </div>
         </div>
@@ -82,36 +82,42 @@ const Navbar = () => {
                 href="/"
                 className=" w-[100%]"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+                onClick={handleNav}
               >
                 <li className="py-4 p-10 text-1xl">Home</li>
               </Link>
               <Link
                 href="#about"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+                onClick={handleNav}
               >
                 <li className="py-4 p-10 text-sm">About</li>
               </Link>
               <Link
                 href="#skills"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+                onClick={handleNav}
               >
                 <li className="py-4 p-10 text-sm">Skills</li>
               </Link>
               <Link
                 href="#projects"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+                onClick={handleNav}
               >
                 <li className="py-4 p-10 text-sm">Projects</li>
               </Link>
               <Link
                 href="#mentorship"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+                onClick={handleNav}
               >
                 <li className="py-4 p-10 text-sm">Projects</li>
               </Link>
               <Link
                 href="#contact"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+                onClick={handleNav}
               >
                 <li className="py-4 p-10 text-sm">Contacts</li>
               </Link>
