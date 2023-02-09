@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-[#181823] text-[#adadb0] md:pl-20 md:pt-20">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-8 bg-[#181823] text-[#adadb0] pl-12 md:pl-20 pt-10 md:pt-20">
         <div>
           <h1 className="text-4xl text-[#fff] font-extrabold">Kimutai</h1>
           <div className="mt-5">
@@ -28,28 +28,37 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="flex md:justify-around">
+          <div className="mr-20 md:mr-0">
+            <ul>
+              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">Home</li>
+              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
+                About
+              </li>
+              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
+                Skills
+              </li>
+              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
+                Projects
+              </li>
+            </ul>
+          </div>
 
-        <div>
-          <ul>
-            <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">Home</li>
-            <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">About</li>
-            <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">Skills</li>
-            <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
-              Projects
-            </li>
-          </ul>
+          <div>
+            <ul>
+              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">Home</li>
+              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
+                About
+              </li>
+              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
+                Skills
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <div>
-          <ul>
-            <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">Home</li>
-            <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">About</li>
-            <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">Skills</li>
-          </ul>
+        <div className="bg-[#181823] text-[#adadb0] pb-20 pr-4 md:pr-0">
+          ©2021 Kiprotich Kimutai. All rights reserved.
         </div>
-      </div>
-      <div className="bg-[#181823] text-[#adadb0] pl-20 pb-20">
-        ©2021 Kiprotich Kimutai. All rights reserved.
       </div>
     </>
   );
