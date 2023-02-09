@@ -12,6 +12,7 @@ import Medium from "@/components/Medium";
 import Mentorship from "@/components/Mentorship";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,6 +41,7 @@ export default function Home() {
       <Mentorship />
       <Testimonials />
       <Contact />
+      <Footer />
     </>
   );
 }
