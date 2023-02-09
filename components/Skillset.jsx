@@ -4,6 +4,7 @@ import { CiDatabase } from "react-icons/ci";
 import { MdOutlineDesignServices } from "react-icons/md";
 import { IoMdCodeWorking } from "react-icons/io";
 import Image from "next/image";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const Skillset = () => {
   return (
@@ -190,7 +191,8 @@ const Skillset = () => {
         >
           <div className="grid grid-cols-2 gap-4  justify-center items-center">
             <div className="m-auto">
-              <Image src="/next.png" alt="html" width={50} height={50} />
+              <TbBrandNextjs size={70} color="white" />
+              <Image src="/next.svg" alt="html" width={50} height={50} />
             </div>
             <div className="flex flex-col items-center justify-center">
               <h3 className="text-[#5b6876]">NEXT JS</h3>
