@@ -24,7 +24,7 @@ const Projects = () => {
             className="text-[#fff] md:text-6xl text-2xl font-bold"
             id="projects"
           >
-            Work that I’ve done for the past 8 years
+            Work that I’ve done for the past 3 years
           </h1>
         </div>
         <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5">

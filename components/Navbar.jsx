@@ -56,7 +56,7 @@ const Navbar = () => {
               <AiOutlineClose
                 size={25}
                 onClick={handleNav}
-                className="z-10 text-white"
+                className="z-10 text-white mt-6"
               />
             ) : (
               <BiMenuAltRight size={25} onClick={handleNav} className="mt-6" />

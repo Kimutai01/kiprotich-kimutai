@@ -10,7 +10,7 @@ const Testimonials = () => {
 
         <p className="text-[#5b6876] text-lg mt-8 md:mr-10">
           Here are a few lines from people who I have worked with over the past
-          2+ years in my design career.
+          2+ years in my developer.
         </p>
       </div>
       <div className="md:pt-32 pt-20 md:p-12">
