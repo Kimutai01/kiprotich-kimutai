@@ -23,7 +23,7 @@ const Mentorship = () => {
           <img
             src="https://images.unsplash.com/45/QDSMoAMTYaZoXpcwBjsL__DSC0104-1.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGxhcHRvcCUyMHNob3dpbmclMjBkaWZmZXJlbnQlMjBzb2NpYWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
             alt=""
-            className="w-full md:h-[640px] h-[480px] background-fixed"
+            className="w-full md:h-[640px] h-[480px] bg-fixed"
             style={{
               borderBottomLeftRadius: "8px",
               borderBottomRightRadius: "8px",
