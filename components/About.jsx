@@ -4,7 +4,10 @@ import pic from "../public/laptop-wave.png";
 
 const About = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#fdf3e6] md:p-12">
+    <div
+      className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#fdf3e6] md:p-12"
+      id="about"
+    >
       <div className="p-6 ml-6">
         <h1 className="max-w-[780px] w-[100%] leading-10 text-4xl font-bold md:p-6">
           About

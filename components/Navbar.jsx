@@ -25,22 +25,27 @@ const Navbar = () => {
                 Home
               </li>
             </Link>
-            <Link href="/">
+            <Link href="#about">
               <li className="ml-10 text-sm uppercase py-6 hover:text-[#75fbfd]">
                 About
               </li>
             </Link>
-            <Link href="/">
+            <Link href="#skills">
               <li className="ml-10 text-sm uppercase py-6 hover:text-[#75fbfd]">
                 Skills
               </li>
             </Link>
-            <Link href="/">
+            <Link href="#projects">
               <li className="ml-10 text-sm uppercase py-6 hover:text-[#75fbfd]">
                 Projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="#mentorship">
+              <li className="ml-10 text-sm uppercase py-6 hover:text-[#75fbfd]">
+                Mentorship
+              </li>
+            </Link>
+            <Link href="#contact">
               <li className="ml-10 text-sm uppercase bg-[#4c24dc] text-white py-6 px-10 hover:bg-[#202088]">
                 Contact
               </li>
@@ -81,25 +86,31 @@ const Navbar = () => {
                 <li className="py-4 p-10 text-1xl">Home</li>
               </Link>
               <Link
-                href="/"
+                href="#about"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
               >
                 <li className="py-4 p-10 text-sm">About</li>
               </Link>
               <Link
-                href="/"
+                href="#skills"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
               >
                 <li className="py-4 p-10 text-sm">Skills</li>
               </Link>
               <Link
-                href="/"
+                href="#projects"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
               >
                 <li className="py-4 p-10 text-sm">Projects</li>
               </Link>
               <Link
-                href="/"
+                href="#mentorship"
+                style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+              >
+                <li className="py-4 p-10 text-sm">Projects</li>
+              </Link>
+              <Link
+                href="#contact"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
               >
                 <li className="py-4 p-10 text-sm">Contacts</li>

@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Skillset = () => {
   return (
-    <div className="bg-[#000]">
+    <div className="bg-[#000]" id="skills">
       <div className="flex p-6 md:p-24 justify-between flex-col md:flex-row">
         <div className="mr-8">
           <h1 className="text-[#fff] font-bold text-5xl ">Skillset</h1>

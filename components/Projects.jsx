@@ -20,7 +20,10 @@ const Projects = () => {
           >
             Work Experience
           </h1>
-          <h1 className="text-[#fff] md:text-6xl text-2xl font-bold">
+          <h1
+            className="text-[#fff] md:text-6xl text-2xl font-bold"
+            id="projects"
+          >
             Work that I’ve done for the past 8 years
           </h1>
         </div>

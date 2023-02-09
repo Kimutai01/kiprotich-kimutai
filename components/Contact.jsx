@@ -2,7 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-[#000] grid grid-cols-1 md:grid-cols-2 h-[100%] py-32  p-10 ">
+    <div
+      className="bg-[#000] grid grid-cols-1 md:grid-cols-2 h-[100%] py-32  p-10 "
+      id="contact"
+    >
       <div className="md:pl-10 pb-6">
         <h1 className="text-[#fff] text-4xl md:text-6xl font-bold">
           Let’s talk business
