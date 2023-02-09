@@ -22,8 +22,8 @@ const About = () => {
           and contributing to the development community.
         </p>
         <a href="/kimutai.pdf" download>
-          <button className="bg-[#f9a826] text-[#fff] text-2xl font-bold py-4 px-4 rounded-full mt-4 md:ml-6 download-cv">
-            Download CV
+          <button className="hover:bg-[#4c24dd] text-black py-2 ml-6 border-b-2 border-[#000] hover:px-6 transition duration-300 ease-in-out hover:text-white">
+            Download Resume
           </button>
         </a>
       </div>
