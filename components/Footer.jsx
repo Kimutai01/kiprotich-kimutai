@@ -1,9 +1,14 @@
 import React from "react";
 import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
-import { BsPersonLinesFill, BsTwitter } from "react-icons/bs";
+import {
+  BsFillArrowUpSquareFill,
+  BsPersonLinesFill,
+  BsTwitter,
+} from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -60,6 +65,14 @@ const Footer = () => {
           ©2021 Kiprotich Kimutai. All rights reserved.
         </div>
       </div>
+      {/* Button to scroll to the top*/}
+      <Link href="/">
+        <div className="fixed bottom-5 right-5 animate-bounce">
+          <button className=" text-[#5651e5] rounded-full p-3 hover:bg-[#75fbfd] hover:text-[#181823] ease-in duration-100">
+            <BsFillArrowUpSquareFill size={25} />
+          </button>
+        </div>
+      </Link>
     </>
   );
 };
