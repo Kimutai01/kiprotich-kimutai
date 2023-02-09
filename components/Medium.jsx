@@ -3,10 +3,10 @@ import React from "react";
 const Medium = () => {
   return (
     <div className="bg-[#f7e5fc] grid grid-cols-1 md:grid-cols-2 gap-10">
-      <div>
-        <h1 className="text-5xl font-bold pt-16 pl-14">Medium</h1>
+      <div className="p-6 md:p-0">
+        <h1 className="text-5xl font-bold pt-16 md:pl-14">Medium</h1>
         <p
-          className="text-[#5b6876] mt-6 pl-14"
+          className="text-[#5b6876] mt-6 md:pl-14"
           style={{ fontSize: "18px", lineHeight: "150%" }}
         >
           As a passionate technical writer, I have a love for creating clear and
@@ -19,7 +19,7 @@ const Medium = () => {
           navigate a new technology, I take pride in using my writing skills to
           make a difference.
         </p>
-        <button className="hover:bg-[#4c24dd] text-black py-2 mt-10 ml-14 border-b-2 border-[#000] hover:px-6 transition duration-300 ease-in-out hover:text-white">
+        <button className="hover:bg-[#4c24dd] text-black py-2 mt-10  md:ml-14 border-b-2 border-[#000] hover:px-6 transition duration-300 ease-in-out hover:text-white">
           Follow me on medium
         </button>
       </div>

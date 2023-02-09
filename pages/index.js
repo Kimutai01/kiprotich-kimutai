@@ -10,6 +10,7 @@ import Skillset from "@/components/Skillset";
 import Projects from "@/components/Projects";
 import Medium from "@/components/Medium";
 import Mentorship from "@/components/Mentorship";
+import Testimonials from "@/components/Testimonials";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +37,7 @@ export default function Home() {
       <Projects />
       <Medium />
       <Mentorship />
+      <Testimonials />
     </>
   );
 }
