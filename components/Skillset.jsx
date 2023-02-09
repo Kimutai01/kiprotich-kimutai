@@ -187,11 +187,11 @@ const Skillset = () => {
 
         <div
           className="p-6  hover:scale-105 ease-in duration-300"
-          style={{ border: "1px solid #4c24dd" }}
+          style={{ border: "1px solid #4c24dd", borderRadius: "10px" }}
         >
           <div className="grid grid-cols-2 gap-4  justify-center items-center">
             <div className="m-auto">
-              <TbBrandNextjs size={70} color="white" />
+              <TbBrandNextjs size={40} color="white" />
               <Image src="/next.svg" alt="html" width={50} height={50} />
             </div>
             <div className="flex flex-col items-center justify-center">
