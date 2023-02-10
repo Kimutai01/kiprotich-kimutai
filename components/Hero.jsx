@@ -12,7 +12,7 @@ const Hero = () => {
           animate={{ opacity: 1, transition: { delay: 0.5 } }}
         >
           <img
-            src="/kimu.png"
+            src="https://images.unsplash.com/photo-1580671905832-91b2ff0a557e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlcnNvbiUyMHdpdGglMjBibGFjayUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
             width={700}
             style={{ objectFit: "cover", height: "85vh" }}
             className="md:absolute top-28 md:left-0 z-30 w-100"
