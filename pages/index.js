@@ -41,7 +41,7 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Sen:wght@400;700;800&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/log.png" />
       </Head>
       <Navbar />
       <Hero />
