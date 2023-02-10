@@ -9,9 +9,11 @@ const Mentorship = () => {
         software development.I have also been to two coding bootcamps and I can
         help you choose the right one for you.
       </p>
-      <button className="hover:bg-[#4c24dd] text-white py-2 mt-10 border-b-2 border-[#5b6876] hover:px-6 transition duration-300 ease-in-out hover:text-white">
-        Book a session
-      </button>
+      <Link href="#contact">
+        <button className="hover:bg-[#4c24dd] text-white py-2 mt-10 border-b-2 border-[#5b6876] hover:px-6 transition duration-300 ease-in-out hover:text-white">
+          Book a session
+        </button>
+      </Link>
 
       <div className="bg-[#181822] mt-28">
         <div className="flex pt-3 pb-2 ml-2 rounded-t-l-md rounded-t-r-md">

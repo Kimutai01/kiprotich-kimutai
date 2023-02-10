@@ -2,7 +2,10 @@ import React from "react";
 
 const Medium = () => {
   return (
-    <div className="bg-[#f7e5fc] grid grid-cols-1 md:grid-cols-2 gap-10">
+    <div
+      className="bg-[#f7e5fc] grid grid-cols-1 md:grid-cols-2 gap-10"
+      id="medium"
+    >
       <div className="p-6 md:p-0">
         <h1 className="text-5xl font-bold pt-16 md:pl-14">Medium</h1>
         <p
@@ -19,9 +22,11 @@ const Medium = () => {
           navigate a new technology, I take pride in using my writing skills to
           make a difference.
         </p>
-        <button className="hover:bg-[#4c24dd] text-black py-2 mt-10  md:ml-14 border-b-2 border-[#000] hover:px-6 transition duration-300 ease-in-out hover:text-white">
-          Follow me on medium
-        </button>
+        <Link href="https://medium.com/@kiprotichkimutai01">
+          <button className="hover:bg-[#4c24dd] text-black py-2 mt-10  md:ml-14 border-b-2 border-[#000] hover:px-6 transition duration-300 ease-in-out hover:text-white">
+            Follow me on medium
+          </button>
+        </Link>
       </div>
       <div>
         <img

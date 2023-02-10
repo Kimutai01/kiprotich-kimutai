@@ -41,28 +41,47 @@ const Footer = () => {
         <div className="flex md:justify-around">
           <div className="mr-20 md:mr-0">
             <ul>
-              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">Home</li>
-              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
-                About
-              </li>
-              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
-                Skills
-              </li>
-              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
-                Projects
-              </li>
+              <Link href="/">
+                <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
+                  Home
+                </li>
+              </Link>
+              <Link href="#about">
+                <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
+                  About
+                </li>
+              </Link>
+              <Link href="#skills">
+                <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
+                  Skills
+                </li>
+              </Link>
+              <Link href="#projects">
+                <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
+                  Projects
+                </li>
+              </Link>
             </ul>
           </div>
 
           <div>
             <ul>
-              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">Home</li>
-              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
-                About
-              </li>
-              <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
-                Skills
-              </li>
+              <Link href="#contact">
+                <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
+                  Contact
+                </li>
+              </Link>
+
+              <Link href="#medium">
+                <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
+                  Medium
+                </li>
+              </Link>
+              <Link href="#mentorship">
+                <li className="mb-5 hover:text-[#75fbfd] cursor-pointer">
+                  Mentorship
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
