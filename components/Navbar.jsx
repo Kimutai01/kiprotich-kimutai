@@ -116,7 +116,7 @@ const Navbar = () => {
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
                 onClick={handleNav}
               >
-                <li className="py-4 p-10 text-sm">Projects</li>
+                <li className="py-4 p-10 text-sm">Mentorship</li>
               </Link>
               <Link
                 href="#contact"
