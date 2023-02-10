@@ -123,18 +123,28 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="flex items-center justify-between sm:w-[60%] px-10">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
-                <FaLinkedinIn />
-              </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
-                <FaGithub />
-              </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
-                <AiOutlineMail />
-              </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
-                <BsPersonLinesFill />
-              </div>
+              <Link href="https://www.linkedin.com/in/kimutai01">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
+                  <FaLinkedinIn />
+                </div>
+              </Link>
+
+              <Link href="https://github.com/Kimutai01">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
+                  <FaGithub />
+                </div>
+              </Link>
+              <Link href="mailto:kiprotichkimutai01@gmail.com">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
+                  <AiOutlineMail />
+                </div>
+              </Link>
+
+              <Link href="tel: +254790841979">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
+                  <BsPersonLinesFill />
+                </div>
+              </Link>
             </div>
           </div>
         </div>
