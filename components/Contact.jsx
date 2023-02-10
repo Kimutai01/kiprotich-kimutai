@@ -16,13 +16,14 @@ const Contact = () => {
         </p>
       </div>
       <div>
-        <form>
+        <form action="https://formspree.io/f/xdovezbq" method="POST">
           <h2 className="text-white mb-2">Name</h2>
           <input
             type="text"
             name="name"
             id="name"
-            className="bg-[#181822] text-[#fff] md:w-[70%] w-full outline-none py-1 mb-10 px-4"
+            className="bg-[#181822] text-[#fff] md:w-[70%] w-full outline-none py-1 mb-10 px-4 rounded-md"
+            required
           />
 
           <h2 className="text-white mb-2">Email</h2>
@@ -30,7 +31,9 @@ const Contact = () => {
             type="email"
             name="email"
             id="email"
-            className="bg-[#181822] text-[#fff] md:w-[70%] w-full outline-none py-1 mb-10 px-4"
+            className="bg-[#181822] text-[#fff] md:w-[70%] w-full outline-none py-1 mb-10 px-4 rounded-md"
+            required
+            validate="email"
           />
 
           <h2 className="text-white mb-2">Message</h2>
@@ -39,7 +42,8 @@ const Contact = () => {
             id="message"
             cols="30"
             rows="10"
-            className="bg-[#181822] text-[#fff] w-full md:w-[70%] outline-none py-1 px-4"
+            className="bg-[#181822] text-[#fff] w-full md:w-[70%] outline-none py-1 px-4 rounded-md"
+            required
           ></textarea>
 
           <input
