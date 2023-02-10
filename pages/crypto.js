@@ -54,15 +54,11 @@ function crypto() {
               Demo
             </a>
           </button>
-          <button className="font-lg font-semibold py-3 mt-6 md:ml-6 px-20 text-center border-2 border-[#4c24dc] rounded-md hover:bg-[#4c24dc]">
-            <a
-              href="https://github.com/Kimutai01/cryptocurrencies"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <Link href="https://github.com/Kimutai01/cryptocurrencies">
+            <button className="font-lg font-semibold py-3 mt-6 md:ml-6 px-20 text-center border-2 border-[#4c24dc] rounded-md hover:bg-[#4c24dc]">
               Code
-            </a>
-          </button>
+            </button>
+          </Link>
         </div>
         <div className=" md:col-span-1 rounded-xl md:p-4">
           <div className="p-2">
