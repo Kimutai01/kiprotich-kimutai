@@ -50,9 +50,8 @@ const Hero = () => {
                 lineHeight: "150%",
               }}
             >
-              I’m probably the most passionate full-stack developer you will
-              ever get to work with. If you have a great project that needs some
-              amazing skills, I’m your guy.
+              I'm probably the most interesting developer you'll meet. If you
+              have a great project that needs some amazing skills, I’m your guy.
             </p>
           </div>
         </motion.div>
