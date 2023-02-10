@@ -16,7 +16,11 @@ const Navbar = () => {
     <div className="fixed w-full h-20 text-white z-40 ">
       <div className="flex justify-between items-center w-full h-full 2xl:px-16">
         <div className="bg-[#000] w-[40%] h-[100%] px-2 items-center">
-          <h1 className="py-6 text-2xl px-10 font-extrabold">Kimutai</h1>
+          <Link href="/">
+            <h1 className="py-6 text-2xl px-10 font-extrabold cursor-pointer">
+              Kimutai
+            </h1>
+          </Link>
         </div>
         <div className="bg-[#000] md:bg-[#181822] w-[60%] h-[100%]  px-6 flex justify-end text-[#adadb0]">
           <ul className="hidden md:flex">
