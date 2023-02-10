@@ -18,18 +18,23 @@ const Footer = () => {
           <h1 className="text-4xl text-[#fff] font-extrabold">Kimutai</h1>
           <div className="mt-5">
             <div className="flex ">
-              <div className="rounded-full pr-4 text-[#0e76a8] cursor-pointer hover:scale-105 ease-in duration-100">
-                <AiFillLinkedin size={25} />
-              </div>
-              <div className="rounded-full pr-4 cursor-pointer text-[#1DA1F2] hover:scale-105 ease-in duration-100">
-                <BsTwitter size={25} />
-              </div>
-              <div className="rounded-full pr-4 cursor-pointer text-white hover:scale-105 ease-in duration-100">
-                <MdEmail size={25} />
-              </div>
-              <div className="rounded-full pr-4 text-[#25D366] cursor-pointer hover:scale-105 ease-in duration-100">
-                <RiWhatsappFill size={25} />
-              </div>
+              <Link href="https://www.linkedin.com/in/kimutai01">
+                <div className="rounded-full pr-4 text-[#0e76a8] cursor-pointer hover:scale-105 ease-in duration-100">
+                  <AiFillLinkedin size={25} />
+                </div>
+              </Link>
+
+              <Link href="https://twitter.com/Kimutai_01?t=GL3TSvd8lOxss04vpq1Khw&s=09">
+                <div className="rounded-full pr-4 cursor-pointer text-[#1DA1F2] hover:scale-105 ease-in duration-100">
+                  <BsTwitter size={25} />
+                </div>
+              </Link>
+
+              <Link href="mailto:kiprotichkimutai01@gmail.com">
+                <div className="rounded-full pr-4 cursor-pointer text-white hover:scale-105 ease-in duration-100">
+                  <MdEmail size={25} />
+                </div>
+              </Link>
             </div>
           </div>
         </div>
