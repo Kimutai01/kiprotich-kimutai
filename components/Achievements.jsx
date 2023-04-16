@@ -4,7 +4,7 @@ import React from "react";
 const Achievements = () => {
   return (
     <div className="bg-[#000] text-[#5b6876] md:p-20 p-6">
-      <h1 className="text-[#fff] font-bold text-5xl md:ml-28 pb-10">
+      <h1 className="text-[#fff] font-bold text-4xl md:text-5xl md:ml-28 pb-10">
         Achievements
       </h1>
       <div>
