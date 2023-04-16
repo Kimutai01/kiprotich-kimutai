@@ -4,7 +4,7 @@ import React from "react";
 const Mentorship = () => {
   return (
     <div className="bg-[#000] h-[100%] p-6  md:p-32" id="mentorship">
-      <h1 className="text-[#fff] font-bold text-5xl ">mentorship</h1>
+      <h1 className="text-[#fff] font-bold text-5xl ">Mentorship</h1>
       <p className="text-[#5b6876] text-1xl md:max-w-[50%] mt-6 md:text-lg">
         I offer mentorship to aspiring developers who are looking to get into
         software development.I have also been to two coding bootcamps and I can
