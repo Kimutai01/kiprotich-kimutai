@@ -55,28 +55,28 @@ const Achievements = () => {
         </ul>
         <div className="grid mt-10 grid-cols-2 md:grid-cols-4 md:gap-8 ">
           <div>
-            <img src="/knbs.jpeg" className="h-[200px] w-[250px]" />
+            <img src="/knbs.jpeg" className="h-[200px] w-[350px]" />
           </div>
           <div>
-            <img className="h-[200px] w-[250px]" src="/USIU.jpeg" />
+            <img className="h-[200px] w-[350px]" src="/USIU.jpeg" />
           </div>
           <div>
-            <img className="h-[200px] w-[250px]" src="/Value.jpeg" />
+            <img className="h-[200px] w-[350px]" src="/Value.jpeg" />
           </div>
           <div>
-            <img className="h-[200px] w-[250px]" src="/openi.jpg" />
+            <img className="h-[200px] w-[350px]" src="/openi.jpg" />
           </div>
           <div>
-            <img className="h-[200px] w-[250px]" src="/open.jpg" />
+            <img className="h-[200px] w-[350px]" src="/open.jpg" />
           </div>
           <div>
-            <img className="h-[200px] w-[250px]" src="/mche.JPG" />
+            <img className="h-[200px] w-[350px]" src="/mche.JPG" />
           </div>
           <div>
-            <img className="h-[200px] w-[250px]" src="/ug.JPG" />
+            <img className="h-[200px] w-[350px]" src="/ug.JPG" />
           </div>
           <div>
-            <img className="h-[200px] w-[250px]" src="knbs2.jpeg" />
+            <img className="h-[200px] w-[350px]" src="knbs2.jpeg" />
           </div>
         </div>
       </div>
