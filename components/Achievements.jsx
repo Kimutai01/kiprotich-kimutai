@@ -58,7 +58,7 @@ const Achievements = () => {
             <img src="/knbs.jpeg" className="h-[200px] w-[250px]" />
           </div>
           <div>
-            <img className="h-[200px] w-[250px] " src="/usiu.jpeg" />
+            <img className="h-[200px] w-[250px]" src="/USIU.jpeg" />
           </div>
           <div>
             <img className="h-[200px] w-[250px]" src="/Value.jpeg" />
