@@ -53,7 +53,7 @@ const Achievements = () => {
             </p>
           </li>
         </ul>
-        <div className="grid mt-10 grid-cols-4 gap-8">
+        <div className="grid mt-10 grid-cols-2 md:grid-cols-4 md:gap-8 ">
           <div>
             <img src="/knbs.jpeg" className="h-[200px] w-[250px]" />
           </div>
