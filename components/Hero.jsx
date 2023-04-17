@@ -34,6 +34,7 @@ const Hero = () => {
                     "Full-stack developer",
                     "React developer",
                     "Technical writer",
+                    "Technical Mentor",
                   ],
                   autoStart: true,
                   loop: true,
