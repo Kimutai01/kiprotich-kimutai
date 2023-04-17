@@ -14,8 +14,8 @@ const Hero = () => {
           <img
             src="/me.JPG"
             width={700}
-            style={{ objectFit: "cover", height: "100vh" }}
-            className="md:absolute top-28 md:left-0 z-30 w-100"
+            style={{ objectFit: "cover" }}
+            className="md:absolute top-28 md:left-0 z-30 w-100 h-[70vh] md:h-[100vh]"
           />
         </motion.div>
       </div>
