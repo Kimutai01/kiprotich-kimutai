@@ -39,7 +39,7 @@ const Achievements = () => {
               Wowzi. We developed a web application that provides farmers with
               advisory from planting to harvesting with{" "}
               <a
-                href="https://www.linkedin.com/in/michael-munavu/"
+                href="https://michaelmunavu.vercel.app/"
                 className="text-[#4c24dc]"
               >
                 Michael Munavu
