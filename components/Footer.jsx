@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-[#181823] text-[#adadb0] pb-20 pr-4 md:pr-0">
-          ©2021 Kiprotich Kimutai. All rights reserved.
+          ©{new Date().getFullYear()} Kiprotich Kimutai. All rights reserved.
         </div>
       </div>
       {/* Button to scroll to the top*/}

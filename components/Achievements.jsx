@@ -16,7 +16,7 @@ const Achievements = () => {
           <li>
             <p>
               1. Winner of the innovate hackathon 2022 organized by value chain
-              factory. We built a web app that enables once medical details and
+              factory. We built a web app that enables one's medical details and
               bio data to be retrived quickly using a qr code or nfc tag.
             </p>
           </li>
