@@ -61,6 +61,27 @@ const Projects = () => {
             </div>
           </div>
         </Link>
+        <Link href="/mche">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out ">
+            <img
+              src="https://images.unsplash.com/photo-1560493676-04071c5f467b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+              className="w-full"
+            />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Mche
+            </h2>
+            <p className="text-[#5b6876] text-1xl  px-5 mb-2 py-6">
+              This is a web application that provides farmers with agronomic
+              advisory from planting to harvesting. The farmers can also get
+              seedlings and inputs from the app. Also has an AI chatbot
+              localized for local markets Built in Ruby on Rails, React and
+              Tailwind CSS
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
       </div>
       <div>
         <Link href="/product">
@@ -95,6 +116,25 @@ const Projects = () => {
             </div>
           </div>
         </Link>
+        <Link href="/kinywa">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out ">
+            <img
+              src="https://images.unsplash.com/photo-1569317002804-ab77bcf1bce4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dW5zcGxhc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+              className="w-full"
+            />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Landing page for a photographer
+            </h2>
+            <p className="text-[#5b6876] text-1xl  px-5 mb-2 py-6">
+              This is a landing page for a photographer to showcase his work. It
+              is built with React and TailwindCSS
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
+
         <div className="pt-24 flex justify-center">
           <Link href="https://github.com/Kimutai01">
             <button className="bg-[#000] text-[#fff] md:text-2xl font-1xl font-semibold py-4 px-20 text-center border-2 border-[#4c24dc] rounded-md hover:bg-[#4c24dc]">

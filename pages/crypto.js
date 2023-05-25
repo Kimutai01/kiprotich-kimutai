@@ -7,7 +7,7 @@ import { BsFillArrowLeftSquareFill } from "react-icons/bs";
 
 function crypto() {
   return (
-    <div className="w-ful bg-[#181822] h-[100vh] text-white">
+    <div className="w-full bg-[#181822] h-[100vh] text-white">
       <div className="">
         <video className="w-full h-[70vh]" controls>
           <source src={videoFile} type="video/mp4" autoPlay={true} muted />
@@ -28,7 +28,7 @@ function crypto() {
               fontWeight: "700",
             }}
           >
-            crypto market tracker
+            Thinkopal
           </p>
           <p
             style={{
@@ -68,13 +68,7 @@ function crypto() {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="flex items-center text-[white] py-2 ">
-                <RiRadioButtonFill className="pr-1" /> CSS
-              </p>
-              <p className="flex items-center text-[white] py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Redux
-              </p>
-              <p className="flex items-center text-[white] py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Jest
+                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
               </p>
             </div>
           </div>
