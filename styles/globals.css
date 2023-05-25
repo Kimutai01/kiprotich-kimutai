@@ -6,6 +6,10 @@ html {
   background: #181822;
 }
 
+body {
+  background: #181822;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Sen", sans-serif;
