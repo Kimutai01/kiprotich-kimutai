@@ -60,7 +60,7 @@ function lifeline() {
             >
               Technologies
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-1 ">
+            <div className="grid grid-cols-1 md:grid-cols-1 bg-[#181822] ">
               <p className="flex items-center text-[white] py-2 ">
                 <RiRadioButtonFill className="pr-1" /> Rails
               </p>
