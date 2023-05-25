@@ -28,7 +28,7 @@ function crypto() {
               fontWeight: "700",
             }}
           >
-            Thinkopal
+            Think Opal
           </p>
           <p
             style={{

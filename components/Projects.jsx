@@ -104,7 +104,7 @@ const Projects = () => {
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5">
             <img src="https://images.unsplash.com/photo-1487721984358-8ecc6e8b412a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZW50ZXJwcmVuZXVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Thinkopal
+              Think Opal
             </h2>
             <p className="text-[#5b6876] text-1xl  px-5 mb-2 py-6">
               This is a website for an enterpreurship support enterprise that
