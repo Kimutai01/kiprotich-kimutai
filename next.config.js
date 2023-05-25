@@ -5,4 +5,18 @@ module.exports = {
   images: {
     domains: ["uploads-ssl.webflow.com"],
   },
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.(mp4|webm|ogg)$/,
+      use: {
+        loader: "file-loader",
+        options: {
+          name: "[name].[ext]",
+          outputPath: "static/videos/", // Path where the videos will be copied in the build folder
+          publicPath: "/_next/static/videos/", // Public URL path to access the videos on the server
+        },
+      },
+    });
+    return config;
+  },
 };

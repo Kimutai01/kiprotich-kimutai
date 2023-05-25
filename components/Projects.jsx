@@ -30,13 +30,13 @@ const Projects = () => {
         </div>
         <Link href="/recipe" className="widt">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5 ">
-            <img src="https://uploads-ssl.webflow.com/5eb98b2079b4fc247b5a89f3/5eb99a5c86971f21359e93b7_Project%201-p-1600.jpeg" />
+            <img src="/mec.jpg" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Recipe app
+              Mechanic
             </h2>
-            <p className="text-[#5b6876] text-1xl  px-5 mb-2">
-              This is a recipe app that allows users to search for recipes and
-              also add their own recipes. It is built with React.
+            <p className="text-[#5b6876] text-1xl pb-5  px-5 mb-2">
+              This is a mechanic website that allows users to quickly access
+              information about the mechanic and the services offered.
             </p>
             <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
               <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
@@ -81,14 +81,14 @@ const Projects = () => {
         </Link>
         <Link href="/crypto">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5">
-            <img src="/crypt.png" />
+            <img src="https://images.unsplash.com/photo-1487721984358-8ecc6e8b412a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZW50ZXJwcmVuZXVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Crypto currency tracker
+              Thinkopal
             </h2>
             <p className="text-[#5b6876] text-1xl  px-5 mb-2 py-6">
-              This is a crypto currency tracker that allows users to track the
-              prices of different crypto currencies. It is built with React and
-              Tailwind CSS.
+              This is a website for an enterpreurship support enterprise that
+              helps entrepreneurs to grow their businesses. It is built with
+              React and TailwindCSS
             </p>
             <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
               <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
