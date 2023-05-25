@@ -53,10 +53,10 @@ const Achievements = () => {
             </p>
           </li>
           <li>
-            <p>6. Emerged 2nd in the fintech hackathon organized by budpay </p>
+            <p>6. Emerged 2nd in the fintech hackathon organized by budpay. </p>
           </li>
           <li>
-            <p>7. Emerged 6th in Narobi Innovation week challenge</p>
+            <p>7. Emerged 6th in Narobi Innovation week challenge.</p>
           </li>
         </ul>
         <div className="grid mt-10 grid-cols-2 md:grid-cols-4 md:gap-8 ">

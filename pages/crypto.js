@@ -9,7 +9,7 @@ function crypto() {
   return (
     <div className="w-full bg-[#181822] h-[100vh] text-white">
       <div className="">
-        <video className="w-full h-[70vh]" controls>
+        <video className="w-full h-[60vh]" controls>
           <source src={videoFile} type="video/mp4" autoPlay={true} muted />
           Your browser does not support the video tag.
         </video>
@@ -74,7 +74,7 @@ function crypto() {
           </div>
         </div>
         {/* back button that floats */}
-        <div className="fixed md:top-{100px} top-10 z-50 left-5 animate-bounce">
+        <div className="fixed md:top-{100px} top-10 z-50 left-5 animate-bounce bg-[#181822]">
           <Link href="/#projects">
             <BsFillArrowLeftSquareFill size={30} color="blue" />
           </Link>

@@ -7,7 +7,7 @@ import videoFile from "../public/lifeline.mp4";
 
 function lifeline() {
   return (
-    <div className="w-ful bg-[#181822] h-[100vh] text-white">
+    <div className="w-full bg-[#181822] h-[100vh] text-white">
       <div className="">
         <video className="w-full h-[70vh]" controls>
           <source src={videoFile} type="video/mp4" autoPlay={true} muted />
@@ -84,7 +84,7 @@ function lifeline() {
           </div>
         </div>
         {/* back button that floats */}
-        <div className="fixed md:top-{100px} top-10 z-50 left-5 animate-bounce">
+        <div className="fixed md:top-{100px} top-10 z-50 left-5 animate-bounce bg-[#181822]">
           <Link href="/#projects">
             <BsFillArrowLeftSquareFill size={30} color="blue" />
           </Link>
