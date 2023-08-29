@@ -28,7 +28,54 @@ const Projects = () => {
             Work that I’ve done for the past 3 years
           </h1>
         </div>
-        <Link href="/recipe" className="widt">
+        <Link href="/vet">
+          <div className="mb-10 mt-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
+            <span class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
+              New
+            </span>
+            <img
+              src="https://images.unsplash.com/photo-1569317002804-ab77bcf1bce4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dW5zcGxhc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+              className="w-full"
+            />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Vetinary booking application
+            </h2>
+            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
+              This is a web application that allows users to book veterinary
+              services and also get information about the veterinary. Veterinary
+              clinics can also register their clinics and add their services.
+              Built in Django, and Tailwind CSS
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
+        <Link href="/realestate">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
+            <span class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
+              New
+            </span>
+            <img
+              src="https://images.unsplash.com/photo-1569317002804-ab77bcf1bce4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dW5zcGxhc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+              className="w-full"
+            />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Real Estate Website
+            </h2>
+            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
+              This is a real estate website that allows users to quickly access
+              information about houses and apartments for sale and rent. Users
+              can also book a house or apartment for viewing. Agents/landlords
+              can also register their houses and apartments and they can also
+              manage tenants. Tenants can pay their bills and get invoices.
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
+        <Link href="/mechanic" className="widt">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5 ">
             <img src="/mec.jpg" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
@@ -84,6 +131,51 @@ const Projects = () => {
         </Link>
       </div>
       <div>
+        <Link href="/peoples">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
+            <span class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
+              New
+            </span>
+            <img
+              src="https://images.unsplash.com/photo-1569317002804-ab77bcf1bce4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dW5zcGxhc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+              className="w-full"
+            />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              People's Choice Awards
+            </h2>
+            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
+              This is the official website of the People's Choice Africa Awards.
+              It is a website that allows people to vote for their favorite
+              celebrities in different categories. It also allows contestants to
+              create their profiles and upload their pictures and videos for
+              posters.
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
+        <Link href="/mechanical">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
+            <span class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
+              New
+            </span>
+            <img
+              src="https://images.unsplash.com/photo-1569317002804-ab77bcf1bce4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dW5zcGxhc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+              className="w-full"
+            />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Mechanic Ecommerce Website
+            </h2>
+            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
+              This is an ecommerce website for the mechanic app.
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
+
         <Link href="/product">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5">
             <img src="/product.png" />
