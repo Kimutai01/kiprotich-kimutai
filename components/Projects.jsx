@@ -29,11 +29,110 @@ const Projects = () => {
             Work that I’ve done for the past 3 years
           </h1>
         </div>
-        <Link href="/vet">
+        <Link href="/ticket">
           <div className="mb-10 mt-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
             <span class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
               New
             </span>
+            <img src="/tick2.jpg" className="w-full" />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Ticketing system
+            </h2>
+            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
+              This ticketing system simplifies the process of booking and
+              obtaining tickets for events. It supports both card and M-Pesa
+              payments, catering to different user preferences. The platform
+              ensures a seamless and secure transaction from selection to
+              delivery, enhancing the overall experience for event-goers.
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
+        <Link href="/pataride">
+          <div className="mb-10 mt-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative rounded-md">
+            <span class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
+              New
+            </span>
+            <img src="/car5.jpg" className="w-full" />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Pataride
+            </h2>
+            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
+              This is a carpooling platform that allows users to share rides
+              with other users. It allows users to create rides and join rides
+              created by other users. It also allows users to search for rides
+              based on the departure and destination locations.
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
+        <Link href="/lipiangoma">
+          <div className="mb-10 mt-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
+            <span class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
+              New
+            </span>
+            <img src="/dj1.jpg" className="w-full" />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Lipia Ngoma
+            </h2>
+            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
+              Lipia ngoma gives you a quick and easy way to request songs at
+              your favorite events. You can also tip your favourite Dj through
+              the platform, view their schedule where they will be performing
+              and also request custom mixes.
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
+        <Link href="/mche">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out ">
+            <img
+              src="https://images.unsplash.com/photo-1560493676-04071c5f467b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+              className="w-full"
+            />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Mche
+            </h2>
+            <p className="text-[#5b6876] text-1xl  px-5 mb-2 py-6">
+              This is a web application that provides farmers with agronomic
+              advisory from planting to harvesting. The farmers can also get
+              seedlings and inputs from the app. Also has an AI chatbot
+              localized for local markets and to detect the crop diseases. Built
+              with Elixir and Phoenix.
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
+        <Link href="/jkuatses">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
+            <span class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
+              New
+            </span>
+            <img src="ses.png" className="w-full" />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Jkuat Ses Ticketing Website
+            </h2>
+            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
+              This is a ticketing system for Jkuat society of engineering
+              students where students can book tickets for events and also get
+              information about the events. It is built with Phoenix, Elixir and
+              Tailwind CSS.
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
+        <Link href="/vet">
+          <div className="mb-10 mt-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
             <img
               src="https://images.unsplash.com/photo-1617639251705-2ac4c485d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHZldHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
               className="w-full"
@@ -52,30 +151,7 @@ const Projects = () => {
             </div>
           </div>
         </Link>
-        <Link href="/realestate">
-          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
-            <span class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
-              New
-            </span>
-            <img
-              src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
-              className="w-full"
-            />
-            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Real Estate Website
-            </h2>
-            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
-              This is a real estate website that allows users to quickly access
-              information about houses and apartments for sale and rent. Users
-              can also book a house or apartment for viewing. Agents/landlords
-              can also register their houses and apartments and they can also
-              manage tenants. Tenants can pay their bills and get invoices.
-            </p>
-            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
-              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
-            </div>
-          </div>
-        </Link>
+
         <Link href="/mechanic" className="widt">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5 ">
             <img src="/mec.jpg" />
@@ -109,34 +185,67 @@ const Projects = () => {
             </div>
           </div>
         </Link>
-        <Link href="/mche">
-          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out ">
-            <img
-              src="https://images.unsplash.com/photo-1560493676-04071c5f467b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
-              className="w-full"
-            />
+      </div>
+      <div>
+        <Link href="/valentine">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
+            <span class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
+              New
+            </span>
+            <img src="/val1.jpg" className="w-full" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Mche
+              Be My Valentines
             </h2>
-            <p className="text-[#5b6876] text-1xl  px-5 mb-2 py-6">
-              This is a web application that provides farmers with agronomic
-              advisory from planting to harvesting. The farmers can also get
-              seedlings and inputs from the app. Also has an AI chatbot
-              localized for local markets Built in Ruby on Rails, React and
-              Tailwind CSS
+            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
+              This is a website that allows users to order templates for sending
+              a message to their loved ones. It is built with Elixir, Phoenix
+              and Tailwind CSS.
             </p>
             <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
               <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
             </div>
           </div>
         </Link>
-      </div>
-      <div>
-        <Link href="/peoples">
+        <Link href="/summertides">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
             <span class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
               New
             </span>
+            <img src="/summer.png" className="w-full" />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Summer tides
+            </h2>
+            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
+              This is the official website for the summertides festival.
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
+        <Link href="/nimrod">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
+            <span class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
+              New
+            </span>
+            <img src="/engagepro.png" className="w-full" />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Engage Pro
+            </h2>
+            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
+              EngagePro is an employee engagement app designed to improve
+              communication, collaboration, and engagement in the workplace. The
+              app provides a platform for employees to connect with each other,
+              share ideas, provide feedback on various company initiatives and
+              keep up on upcoming company events.
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
+        <Link href="/peoples">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
             <img src="/clau.jpg" className="w-full" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
               People's Choice Awards

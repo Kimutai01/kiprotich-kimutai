@@ -42,8 +42,10 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Sen:wght@400;700;800&display=swap"
           rel="stylesheet"
         />
+
         <link rel="icon" href="/log.png" />
       </Head>
+
       <Navbar />
       <Hero />
       <Experience />
@@ -53,6 +55,11 @@ export default function Home() {
       <Achievements />
       <Medium />
       <Mentorship />
+      <iframe
+        src="https://web.powerva.microsoft.com/environments/11a09fce-cb34-e98f-b454-23f4c7c98615/bots/crd69_projectBot/webchat?__version__=2"
+        frameborder="0"
+        className="rounded-full"
+      ></iframe>
       <Testimonials />
       <Contact />
       <Footer />

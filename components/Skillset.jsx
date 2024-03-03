@@ -163,10 +163,10 @@ const Skillset = () => {
         >
           <div className="grid grid-cols-2 gap-4  justify-center items-center">
             <div className="m-auto">
-              <Image src="/ruby.png" alt="html" width={50} height={50} />
+              <Image src="/phoe.png" alt="html" width={70} height={70} />
             </div>
             <div className="flex flex-col items-center justify-center">
-              <h3 className="text-[#5b6876]">RUBY</h3>
+              <h3 className="text-[#5b6876]">Phoenix</h3>
             </div>
           </div>
         </div>
@@ -177,10 +177,10 @@ const Skillset = () => {
         >
           <div className="grid grid-cols-2 gap-4  justify-center items-center">
             <div className="m-auto">
-              <Image src="/rails.png" alt="html" width={50} height={50} />
+              <Image src="/elix.png" alt="html" width={50} height={50} />
             </div>
             <div className="flex flex-col items-center justify-center">
-              <h3 className="text-[#5b6876]">RUBY ON RAILS</h3>
+              <h3 className="text-[#5b6876]">Elixir</h3>
             </div>
           </div>
         </div>

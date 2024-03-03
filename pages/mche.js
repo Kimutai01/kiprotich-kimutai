@@ -8,12 +8,10 @@ import videoFile from "../public/mche.mp4";
 function lifeline() {
   return (
     <div className="w-ful bg-[#181822] h-[100vh] text-white">
-      <div className="">
-        <video className="w-full h-[60vh]" controls>
-          <source src={videoFile} type="video/mp4" autoPlay={true} muted />
-          Your browser does not support the video tag.
-        </video>
-      </div>
+      <video className="w-full h-[60vh]" controls>
+        <source src={videoFile} type="video/mp4" autoPlay={true} muted />
+        Your browser does not support the video tag.
+      </video>
 
       <div className="max-w-[1240px] mx-auto p-12 grid md:grid-cols-5  gap-8 pt-5">
         <div className="col-span-4">
@@ -28,7 +26,7 @@ function lifeline() {
               fontWeight: "700",
             }}
           >
-            Lifeline medical records
+            Mche
           </p>
           <p
             style={{
@@ -44,6 +42,11 @@ function lifeline() {
             seedlings and inputs from the app. Also has an AI chatbot localized
             for local markets Built in Ruby on Rails, React and Tailwind CSS
           </p>
+          <Link href="https://mche.africa/" target="_blank">
+            <button className="font-lg font-semibold py-3 mt-6 px-20 text-center border-2 border-[#4c24dc] rounded-md hover:bg-[#4c24dc]">
+              Demo
+            </button>
+          </Link>
         </div>
         <div className=" md:col-span-1 rounded-xl md:p-4">
           <div className="p-2">
@@ -60,18 +63,16 @@ function lifeline() {
             >
               Technologies
             </p>
+
             <div className="grid grid-cols-1 md:grid-cols-1 bg-[#181822] ">
               <p className="flex items-center text-[white] py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Rails
+                <RiRadioButtonFill className="pr-1" /> Phoenix
               </p>
               <p className="flex items-center text-[white] py-2 ">
                 <RiRadioButtonFill className="pr-1" /> Tailwind CSS
               </p>
               <p className="flex items-center text-[white] py-2 ">
-                <RiRadioButtonFill className="pr-1" /> React
-              </p>
-              <p className="flex items-center text-[white] py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Gitflow
+                <RiRadioButtonFill className="pr-1" /> Phoenix Liveview
               </p>
             </div>
           </div>
