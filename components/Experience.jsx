@@ -27,7 +27,7 @@ const Experience = () => {
         I've worked with some amazing companies
       </h1>
       <div className="flex flex-col md:flex-row md:justify-around">
-        <div>
+        <div className="w-[100%]">
           <p
             style={{
               display: "block",
@@ -57,9 +57,9 @@ const Experience = () => {
                 fontWeight: "700",
               }}
             >
-              Open Institute
+              Pesaflow Limited
             </span>
-            , Software Developer
+            ,Full stack Developer
           </h2>
           <p
             className="pr-4"
@@ -71,12 +71,12 @@ const Experience = () => {
               textDecoration: "none",
             }}
           >
-            I'm currently working as a software design intern on a research
-            project
+            Currently working as a full stack software developer. Stack includes
+            Elixir,Phoenix and Vuejs.
           </p>
         </div>
 
-        <div>
+        <div className="w-[100%]">
           <p
             className="pr-4"
             style={{
@@ -107,12 +107,12 @@ const Experience = () => {
                 fontWeight: "700",
               }}
             >
-              Upwork
+              The Open institute
             </span>
             , Software Developer
           </h2>
           <p
-            className="pr-4"
+            className="pr-4 "
             style={{
               marginBottom: "0px",
               color: "#fff",
@@ -121,11 +121,13 @@ const Experience = () => {
               textDecoration: "none",
             }}
           >
-            I have done a several projects on Upwork as a freelancer
+            I work as a software developer for a digital health project.
+            Developed a chatbot for community health workers. Stack includes
+            Python, Django, LLMs, and React.
           </p>
         </div>
 
-        <div>
+        <div className="w-[100%]">
           <p
             style={{
               display: "block",
@@ -168,7 +170,9 @@ const Experience = () => {
               textDecoration: "none",
             }}
           >
-            I work on a variety of projects as a freelancer
+            I work on a variety of projects as a freelancer, stack includes
+            Elixir, Phoenix Liveview, React, and Tailwind CSS. Worked on Mwamba
+            Rugby Club, Summertides festival etc.
           </p>
         </div>
       </div>
