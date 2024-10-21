@@ -13,16 +13,17 @@ const About = () => {
           About
         </h1>
         <p className="text-[#5b6876] text-1xl md:text-2xl leading-10 md:p-6 mt-6">
-          I am a certified full stack developer with a passion for building
-          innovative and impactful applications. My expertise lies in utilizing
-          HTML, CSS, JavaScript,Docker, Jest, React, Nextjs, Postgresql, Ruby,
-          Rspec, Rails, and Django to bring ideas to life. With a certification
-          from Moringa School and Microverse, I have honed my skills and gained
-          valuable experience in software development. I am always eager to
-          learn and grow, and I thrive when working with a team of diverse
-          individuals from around the world. I believe that collaboration is key
-          to creating amazing products, and I am committed to constantly
-          improving my skills and contributing to the development community.
+          I’m a full stack developer with a passion for building innovative and
+          impactful web applications. With expertise in Elixir, Phoenix
+          LiveView, JavaScript, Docker, Jest, React, Next.js, PostgreSQL, Ruby,
+          RSpec, Rails, and Django, I bring ideas to life by delivering
+          solutions that drive results. I've led teams, including at 10xbeast,
+          where we developed AI powered email marketing software. My portfolio
+          includes contributions to a dating app, the Mwamba rugby ticketing
+          platform generating over $15,000 in sales, and Mche, an AI
+          agricultural tool. Whether building single-page applications or full
+          stack solutions, I specialize in crafting scalable and market-specific
+          platforms that deliver measurable success.
         </p>
         <a href="/kimutai.pdf" download>
           <button className="hover:bg-[#4c24dd] text-black py-2 ml-6 border-b-2 border-[#000] hover:px-6 transition duration-300 ease-in-out hover:text-white">

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className="flex md:justify-between flex-col">
-      <div className="bg-[#000] md:w-[40%] md:h-[850px] w-full">
+      <div className="bg-[#000] md:w-[50%] md:h-[850px] w-full">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { delay: 0.5 } }}
@@ -30,12 +30,7 @@ const Hero = () => {
               I'm Kiprotich Kimutai.
               <Typewriter
                 options={{
-                  strings: [
-                    "Full-stack developer",
-                    "React developer",
-                    "Technical writer",
-                    "Technical Mentor",
-                  ],
+                  strings: ["Full-stack developer", "Elixir Developer"],
                   autoStart: true,
                   loop: true,
                 }}

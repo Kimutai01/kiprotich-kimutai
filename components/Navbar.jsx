@@ -49,6 +49,11 @@ const Navbar = () => {
                 Mentorship
               </li>
             </Link>
+            {/* <Link href="#gallery">
+              <li className="ml-10 text-sm uppercase py-6 hover:text-[#75fbfd]">
+                Gallery
+              </li>
+            </Link> */}
             <Link href="#contact">
               <li className="ml-10 text-sm uppercase bg-[#4c24dc] text-white py-6 px-10 hover:bg-[#202088]">
                 Contact

@@ -59,7 +59,7 @@ const Experience = () => {
             >
               Pesaflow Limited
             </span>
-            ,Full stack Developer
+            ,Full stack Elixir Developer
           </h2>
           <p
             className="pr-4"
@@ -122,8 +122,11 @@ const Experience = () => {
             }}
           >
             I work as a software developer for a digital health project.
-            Developed a chatbot for community health workers. Stack includes
-            Python, Django, LLMs, and React.
+            Developed and trained a{" "}
+            <span class="text-[#609bff] text-underline">
+              <a href="https://wa.me/254716755443?text=hello">chatbot</a>
+            </span>{" "}
+            for community health workers.
           </p>
         </div>
 
@@ -170,9 +173,20 @@ const Experience = () => {
               textDecoration: "none",
             }}
           >
-            I work on a variety of projects as a freelancer, stack includes
-            Elixir, Phoenix Liveview, React, and Tailwind CSS. Worked on Mwamba
-            Rugby Club, Summertides festival etc.
+            I have developed and deployed several projects for clients. I have
+            worked with clients from all over the world. e.g{" "}
+            <span class="text-[#609bff] text-underline">
+              <a href="https://www.10xengage.com/">10xbeast</a>
+            </span>{" "}
+            ,{" "}
+            <span class="text-[#609bff] text-underline">
+              <a href="https://mwambarugby.com/">Mwamba Rugby</a>
+            </span>{" "}
+            ,{" "}
+            <span class="text-[#609bff] text-underline">
+              <a href="https://www.railaodinga4auc.com/">Raila Odinga</a>
+            </span>{" "}
+            etc.
           </p>
         </div>
       </div>

@@ -5,6 +5,7 @@
 html {
   scroll-behavior: smooth !important;
   background: #181822;
+  font-family: "Sen", sans-serif;
 }
 
 body {

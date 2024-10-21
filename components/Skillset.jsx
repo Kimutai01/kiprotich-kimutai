@@ -37,7 +37,8 @@ const Skillset = () => {
             >
               I have a strong understanding of the frontend development process
               and I can build any website from scratch. I have experience with
-              HTML, CSS, JavaScript, React, Nextjs, and Tailwind.
+              HTML, CSS, JavaScript, React, Nextjs, Tailwind and Phoenix
+              Liveview.
             </p>
           </div>
           <div className="mt-4 group">
@@ -53,9 +54,9 @@ const Skillset = () => {
               className="text-[#5b6876]"
               style={{ fontSize: "18px", lineHeight: "150%" }}
             >
-              I have a strong understanding of the backend development process
-              and I can build any website from scratch. I have experience with
-              Ruby, Rails, Postgresql, and Rspec.
+              I have a strong understanding of the backend development process,
+              including database design and API development. I have experience
+              with Elixir, Phoenix, and Django.
             </p>
           </div>
         </div>
@@ -73,9 +74,7 @@ const Skillset = () => {
               className="text-[#5b6876]"
               style={{ fontSize: "18px", lineHeight: "150%" }}
             >
-              I have a strong understanding of the database design process and I
-              can build any database from scratch. I have experience with
-              Postgresql.
+              I have a strong understanding of the database design process.
             </p>
           </div>
           <div className="mt-8 group">
@@ -92,8 +91,7 @@ const Skillset = () => {
               style={{ fontSize: "18px", lineHeight: "150%" }}
             >
               I have a strong understanding of the content writing process and I
-              can write any content from scratch. I have experience with writing
-              articles, blogs, and essays.
+              can write content for any website or blog.
             </p>
           </div>
         </div>
