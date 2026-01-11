@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="flex md:mr-7 flex-col">
         <div className="mb-5">
           <h1
-            className="text-[#86919f] uppercase"
+            className="text-[#d1d5db] uppercase"
             style={{
               display: "inline-block",
               marginBottom: "8px",
@@ -26,18 +26,20 @@ const Projects = () => {
             className="text-[#fff] md:text-6xl text-2xl font-bold"
             id="projects"
           >
-            Work that I’ve done for the past 3 years
+            Work that I’ve done for the past 5 years
           </h1>
         </div>
-        <Link href="/raila">
+        <Link href="/fiti">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
-            <img src="raila.png" className="w-full" />
+            <img src="fiti.png" className="w-full" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Raila Odinga for AU website
+              Fiti.info - Brand Protection & Logistics
             </h2>
-            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
-              This is the official website for the Raila Odinga for AU chair
-              campaign.
+            <p className="text-[#d1d5db] text-1xl px-5 mb-2 py-6">
+              A brand protection and logistics service trusted by Oxford
+              University Press. Generates unique pins placed at the back of
+              books which users can scratch and send to the WhatsApp bot or SMS
+              to validate authenticity of books.
             </p>
             <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
               <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
@@ -46,126 +48,34 @@ const Projects = () => {
         </Link>
         <Link href="/ticket">
           <div className="mb-10 mt-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
-            <img src="/tick2.jpg" className="w-full" />
+            <img src="/ticketing1.png" className="w-full" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Ticketing system
+              Ticketing systems
             </h2>
-            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
-              This ticketing system simplifies the process of booking and
-              obtaining tickets for events. It supports both card and M-Pesa
-              payments, catering to different user preferences. The platform
-              ensures a seamless and secure transaction from selection to
-              delivery, enhancing the overall experience for event-goers.
+            <p className="text-[#d1d5db] text-1xl px-5 mb-2 py-6">
+              Built multiple ticketing systems that have transacted over
+              $1,000,000 in ticket sales. These platforms simplify the process
+              of booking and obtaining tickets for events, supporting both card
+              and M-Pesa payments. The systems ensure seamless and secure
+              transactions from selection to delivery, enhancing the overall
+              experience for event-goers.
             </p>
             <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
               <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
             </div>
           </div>
         </Link>
-        <Link href="/pataride">
+        <Link href="/callwisely">
           <div className="mb-10 mt-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative rounded-md">
-            <img src="/car5.jpg" className="w-full" />
+            <img src="/call1.png" className="w-full" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Pataride
+              CallWisely
             </h2>
-            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
-              This is a carpooling platform that allows users to share rides
-              with other users. It allows users to create rides and join rides
-              created by other users. It also allows users to search for rides
-              based on the departure and destination locations.
-            </p>
-            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
-              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
-            </div>
-          </div>
-        </Link>
-        <Link href="/lipiangoma">
-          <div className="mb-10 mt-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
-            <img src="/dj1.jpg" className="w-full" />
-            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Lipia Ngoma
-            </h2>
-            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
-              Lipia ngoma gives you a quick and easy way to request songs at
-              your favorite events. You can also tip your favourite Dj through
-              the platform, view their schedule where they will be performing
-              and also request custom mixes.
-            </p>
-            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
-              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
-            </div>
-          </div>
-        </Link>
-        <Link href="/mche">
-          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out ">
-            <img
-              src="https://images.unsplash.com/photo-1560493676-04071c5f467b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
-              className="w-full"
-            />
-            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Mche
-            </h2>
-            <p className="text-[#5b6876] text-1xl  px-5 mb-2 py-6">
-              This is a web application that provides farmers with agronomic
-              advisory from planting to harvesting. The farmers can also get
-              seedlings and inputs from the app. Also has an AI chatbot
-              localized for local markets and to detect the crop diseases. Built
-              with Elixir and Phoenix.
-            </p>
-            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
-              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
-            </div>
-          </div>
-        </Link>
-
-        <Link href="/vet">
-          <div className="mb-10 mt-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
-            <img
-              src="https://images.unsplash.com/photo-1617639251705-2ac4c485d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHZldHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
-              className="w-full"
-            />
-            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Vetinary booking application
-            </h2>
-            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
-              This is a web application that allows users to book veterinary
-              services and also get information about the veterinary. Veterinary
-              clinics can also register their clinics and add their services.
-              Built in Django, and Tailwind CSS
-            </p>
-            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
-              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
-            </div>
-          </div>
-        </Link>
-
-        <Link href="/mechanic" className="widt">
-          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5 ">
-            <img src="/mec.jpg" />
-            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Mechanic
-            </h2>
-            <p className="text-[#5b6876] text-1xl pb-5  px-5 mb-2">
-              This is a mechanic website that allows users to quickly access
-              information about the mechanic and the services offered.
-            </p>
-            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
-              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
-            </div>
-          </div>
-        </Link>
-        <Link href="/lifeline">
-          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out ">
-            <img src="/lifeline.png" className="w-full" />
-            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Lifeline medical records
-            </h2>
-            <p className="text-[#5b6876] text-1xl  px-5 mb-2 py-6">
-              This is a medical record data that allows users to quickly access
-              their medical records. It is built with Ruby on Rails and
-              Bootstrap CSS. It has a user authentication system and a each
-              patient's data is saved as a QR code that can be scanned by a
-              doctor and also embedded into a NFC tag .
+            <p className="text-[#d1d5db] text-1xl px-5 mb-2 py-6">
+              An AI call center agent with embeddable chatbot. Takes knowledge
+              base from website, documents, or text and uses it to personalize
+              the AI voice agent. The voice can be changed depending on the
+              persona, making it dynamic and adaptable for different use cases.
             </p>
             <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
               <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
@@ -174,134 +84,52 @@ const Projects = () => {
         </Link>
       </div>
       <div>
-        <Link href="/10xengage">
+        <Link href="/nexuscale">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5">
-            <img src="/10x.png" />
+            <img src="/nexuscale.png" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              10xengage
+              Nexuscale.ai
             </h2>
-            <p className="text-[#5b6876] text-1xl  px-5 mb-2 py-6">
-              This is an AI email marketing platform that allows users to send
-              personalized emails to their leads.
+            <p className="text-[#d1d5db] text-1xl  px-5 mb-2 py-6">
+              An AI-powered B2B sales software used to send automated outbound
+              emails and follow-ups. Features a database of over 200M leads with
+              LinkedIn personalization, Google News integration, and website
+              personalization.
             </p>
             <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
               <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
             </div>
           </div>
         </Link>
-        <Link href="/valentine">
+        <Link href="/ecommerce">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
-            <img src="/val1.jpg" className="w-full" />
+            <img src="/tom.png" className="w-full" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Be My Valentines
+              TOMOLLO Fashions
             </h2>
-            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
-              This is a website that allows users to order templates for sending
-              a message to their loved ones. It is built with Elixir, Phoenix
-              and Tailwind CSS.
+            <p className="text-[#d1d5db] text-1xl px-5 mb-2 py-6">
+              An ecommerce platform for African and Irish fashion, celebrating
+              vibrant designs with modern, handcrafted pieces. Features include
+              product catalog, shopping cart, and customer reviews. Built with
+              Elixir, Phoenix, and Tailwind CSS.
             </p>
             <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
               <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
             </div>
           </div>
         </Link>
-        <Link href="/summertides">
+        <Link href="/sema">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
-            <img src="/summer.png" className="w-full" />
+            <img src="/sema.png" className="w-full" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Summer tides
+              Sema
             </h2>
-            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
-              This is the official website for the summertides festival.
-            </p>
-            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
-              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
-            </div>
-          </div>
-        </Link>
-        <Link href="/nimrod">
-          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
-            <img src="/engagepro.png" className="w-full" />
-            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Engage Pro
-            </h2>
-            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
-              EngagePro is an employee engagement app designed to improve
-              communication, collaboration, and engagement in the workplace. The
-              app provides a platform for employees to connect with each other,
-              share ideas, provide feedback on various company initiatives and
-              keep up on upcoming company events.
-            </p>
-            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
-              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
-            </div>
-          </div>
-        </Link>
-        <Link href="/peoples">
-          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
-            <img src="/clau.jpg" className="w-full" />
-            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              People's Choice Awards
-            </h2>
-            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
-              This is the official website of the People's Choice Africa Awards.
-              It is a website that allows people to vote for their favorite
-              celebrities in different categories. It also allows contestants to
-              create their profiles and upload their pictures and videos for
-              posters.
-            </p>
-            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
-              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
-            </div>
-          </div>
-        </Link>
-        <Link href="/mechanical">
-          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out relative">
-            <img
-              src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGVjb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
-              className="w-full"
-            />
-            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Mechanic Ecommerce Website
-            </h2>
-            <p className="text-[#5b6876] text-1xl px-5 mb-2 py-6">
-              This is an ecommerce website for the mechanic app.
-            </p>
-            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
-              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
-            </div>
-          </div>
-        </Link>
-
-        <Link href="/product">
-          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5">
-            <img src="/product.png" />
-            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Product comparator
-            </h2>
-            <p className="text-[#5b6876] text-1xl  px-5 mb-2 py-6">
-              This shoppingExchange website that compares prices of products
-              from different online stores. It is built with Ruby on Rails and
-              Tailwind,React.
-            </p>
-            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
-              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
-            </div>
-          </div>
-        </Link>
-
-        <Link href="/kinywa">
-          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out ">
-            <img
-              src="https://images.unsplash.com/photo-1569317002804-ab77bcf1bce4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dW5zcGxhc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
-              className="w-full"
-            />
-            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
-              Landing page for a photographer
-            </h2>
-            <p className="text-[#5b6876] text-1xl  px-5 mb-2 py-6">
-              This is a landing page for a photographer to showcase his work. It
-              is built with React and TailwindCSS
+            <p className="text-[#d1d5db] text-1xl px-5 mb-2 py-6">
+              A mental health and wellness platform that connects users with
+              accredited therapists for online therapy sessions. Features
+              include therapist selection, appointment booking, video
+              conferencing, and support for individual and couples counseling.
+              Has facilitated over 5,000 therapy sessions.
             </p>
             <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
               <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />

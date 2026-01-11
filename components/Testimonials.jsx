@@ -10,11 +10,40 @@ const Testimonials = () => {
 
         <p className="text-[#5b6876] text-lg mt-8 md:mr-10">
           Here are a few lines from people who I have worked with over the past
-          2+ years in my developer.
+          5+ years in my developer.
         </p>
       </div>
       <div className="md:pt-32 pt-20 md:p-12">
         <div>
+          <img
+            src="https://uploads-ssl.webflow.com/5eb98b2079b4fc247b5a89f3/5eb99a5ca959aafef7674902_Testimonial%201.jpg"
+            alt=""
+          />
+          <div className="border-b-2 border-r-2 border-l-2 border-[#5b6876] p-10">
+            <p className="text-[#fff] text-2xl font-bold">
+              "Kim has a very good knowledge about Elixir and the Phoenix
+              Framework. His AI work (especially creating prompts) is
+              outstanding. His LLM prompts are a work of beauty! I worked with
+              him remotely and that went really well. Would work with him again
+              any time."
+            </p>
+
+            <p className="text-[#5b6876] text-lg mt-4">
+              -{" "}
+              <a
+                href="https://www.linkedin.com/in/wintermeyer/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#4c24dc] hover:underline"
+              >
+                Stefan Wintermeyer
+              </a>
+              , Founder Wintermeyer-Consulting
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-24">
           <img
             src="https://uploads-ssl.webflow.com/5eb98b2079b4fc247b5a89f3/5eb99a5ca959aafef7674902_Testimonial%201.jpg"
             alt=""
@@ -31,7 +60,16 @@ const Testimonials = () => {
             </p>
 
             <p className="text-[#5b6876] text-lg mt-4">
-              - Ritobroto Mukherjee, Full Stack Developer at Prime BPM
+              -{" "}
+              <a
+                href="https://www.linkedin.com/in/ritobroto-m3/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#4c24dc] hover:underline"
+              >
+                Ritobroto Mukherjee
+              </a>
+              , Full Stack Developer at Prime BPM
             </p>
           </div>
         </div>
@@ -54,25 +92,6 @@ const Testimonials = () => {
 
             <p className="text-[#5b6876] text-lg mt-4">
               - Victor Chiemerie , Full stack developer
-            </p>
-          </div>
-        </div>
-
-        <div className="mt-24">
-          <img
-            src="https://uploads-ssl.webflow.com/5eb98b2079b4fc247b5a89f3/5eb99a5ca959aafef7674902_Testimonial%201.jpg"
-            alt=""
-          />
-          <div className="border-b-2 border-r-2 border-l-2 border-[#5b6876] p-10">
-            <p className="text-[#fff] text-2xl font-bold">
-              "Kimutai is an amazing friend and an excellent software developer.
-              He is always willing to offer help to other members who faced
-              technical blockers. He is the perfect team player. who has
-              leadership abilities. I highly recommend Kimutai."
-            </p>
-
-            <p className="text-[#5b6876] text-lg mt-4">
-              - Hanningtone Machuka, Full Stack Developer
             </p>
           </div>
         </div>

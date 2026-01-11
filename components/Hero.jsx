@@ -30,7 +30,12 @@ const Hero = () => {
               I'm Kiprotich Kimutai.
               <Typewriter
                 options={{
-                  strings: ["Full-stack developer", "Elixir Developer"],
+                  strings: [
+                    "Full-stack developer",
+                    "AI Engineer",
+                    "Elixir Developer",
+                    "Fintech Developer",
+                  ],
                   autoStart: true,
                   loop: true,
                 }}
@@ -46,8 +51,9 @@ const Hero = () => {
                 lineHeight: "150%",
               }}
             >
-              I'm probably the most interesting developer you'll meet. If you
-              have a great project that needs some amazing skills, I’m your guy.
+              Full-stack engineer with 5+ years of building software that solves
+              real problems—from healthcare chatbots to AI platforms serving
+              thousands of active users. Always exploring the next breakthrough.
             </p>
           </div>
         </motion.div>

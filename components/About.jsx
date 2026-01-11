@@ -13,19 +13,23 @@ const About = () => {
           About
         </h1>
         <p className="text-[#5b6876] text-1xl md:text-2xl leading-10 md:p-6 mt-6">
-          I’m a full stack developer with a passion for building innovative and
-          impactful web applications. With expertise in Elixir, Phoenix
-          LiveView, JavaScript, Docker, Jest, React, Next.js, PostgreSQL, Ruby,
-          RSpec, Rails, and Django, I bring ideas to life by delivering
-          solutions that drive results. I've led teams, including at 10xbeast,
-          where we developed AI powered email marketing software. My portfolio
-          includes contributions to a dating app, the Mwamba rugby ticketing
-          platform generating over $15,000 in sales, and Mche, an AI
-          agricultural tool. Whether building single-page applications or full
-          stack solutions, I specialize in crafting scalable and market-specific
-          platforms that deliver measurable success.
+          Since I was young, my dream has always been to use software to make
+          the world a better place. That dream led me to my first
+          opportunity—building a WhatsApp chatbot for community health workers
+          in Kenya, piloted in Busia, to help serve patients with sickle cell
+          anemia. Funded by the University of Warwick and Welcome Trust, that
+          project wasn't just code; it was my chance to see technology directly
+          impact lives in underserved communities.
         </p>
-        <a href="/kimutai.pdf" download>
+        <p className="text-[#5b6876] text-1xl md:text-2xl leading-10 md:p-6 mt-0">
+          That experience shaped everything that followed. Over 5+ years, I've
+          built AI platforms that scale, fintech solutions spanning multiple
+          countries, and tools that protect brands and connect people. I've led
+          teams, won 8+ hackathons, and constantly explore new technologies. My
+          work isn't just about building software—it's about creating solutions
+          that drive meaningful change.
+        </p>
+        <a href="/Resume.pdf" download>
           <button className="hover:bg-[#4c24dd] text-black py-2 ml-6 border-b-2 border-[#000] hover:px-6 transition duration-300 ease-in-out hover:text-white">
             Download Resume
           </button>
