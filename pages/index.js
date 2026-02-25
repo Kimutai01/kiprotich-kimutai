@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -15,12 +14,12 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Achievements from "@/components/Achievements";
 import Gallery from "@/components/Gallery";
-
-const inter = Inter({ subsets: ["latin"] });
+import TalkAnnouncement from "@/components/TalkAnnouncement";
 
 export default function Home() {
   return (
     <>
+      <TalkAnnouncement />
       <Head>
         <title>Kimutai - Full stack developer</title>
         <meta
