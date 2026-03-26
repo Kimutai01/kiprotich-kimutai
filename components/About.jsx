@@ -29,7 +29,7 @@ const About = () => {
           work isn't just about building software—it's about creating solutions
           that drive meaningful change.
         </p>
-        <a href="/Resume.pdf" download>
+        <a href="/resumee.pdf" download>
           <button className="hover:bg-[#4c24dd] text-black py-2 ml-6 border-b-2 border-[#000] hover:px-6 transition duration-300 ease-in-out hover:text-white">
             Download Resume
           </button>
